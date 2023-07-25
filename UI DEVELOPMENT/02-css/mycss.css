@@ -1,0 +1,6 @@
+body{background-color: rgb(74, 73, 73);}
+h1{background-color: pink;}
+h2{background-color: green;}
+p{background-color: rgb(245, 233, 245);}
+ol{list-style: upper-roman;}
+ul{list-style-type: decimal-leading-zero;}

@@ -1,0 +1,113 @@
+   
+<html>   
+    <head> 
+        <body background="D:/food6.jpg " width="1000" height="1000"></body>  
+        
+        <script>
+            function myValidate(form){
+                var Username =form.username.value;
+                var password =form.password.value;
+                if (myusername.length ===0) {
+        
+                    alert("You must enter Valid Usename")
+                    return false;
+                }
+                if (mypassword.length ===0) {
+        
+                    alert("You must enter Valid Password")
+                    return false;
+                }
+            }
+        </script>
+      
+    <title> HOMEPAGE </title> 
+    
+    
+    <style>   
+    
+         
+    button {   
+           background-color: goldenrod;   
+           width: 100%;  
+            color:wheat;   
+            padding: 15px;   
+              
+              
+             
+             }   
+         
+     input[type=email], input[type=password] {   
+            width: 100%;   
+            margin: 8px 0;  
+            padding: 12px 20px;   
+               
+            border: 3px solid goldenrod;   
+              
+        } 
+        
+        .gradient{
+                    width: 400px;
+                    height: 300px;
+                    
+                    
+                } 
+      
+       
+            
+         
+      
+    </style>   
+    </head>    
+    <body>   
+        
+            
+           
+           
+        
+         <center>
+            <form action="Success.html" onsubmit="return myValidate(this)">
+                <div class="header-1">
+                
+                    <p class="logo" >
+                        <h1 style="color: goldenrod"><strong>  FOOD PAGE </strong></h1></p>
+                    <form action="" class="search-box-container">
+                        <input type="search" id="search-box" placeholder="search here...">
+                        <label for="search-box" class="fas fa-foodcart"></label>
+                    </form>
+                </div>
+                 
+            <div class="box-container"  >    
+                <div class="box">
+                    <h4>we believe in:</h4>
+                    <p>Best and taste food provides more health</p>
+                    <div class="links" >
+                       
+                <a href="file:///D:/TECHNICAL/UI%20DEVELOPMENT/01-HMTL/registartion%20page.html" style="color:goldenrod;"></a>
+                <a href="file:///D:/TECHNICAL/UI%20DEVELOPMENT/01-HMTL/loginpage.html" style="color:goldenrod;"></a>
+            
+                <a href="file:///D:/TECHNICAL/UI%20DEVELOPMENT/01-HMTL/contact%20us.html" style="color:goldenrod;"></a>       
+                
+             
+                <a href="#">Add Restruant</a> <br>
+                       
+                    </div>
+                </div>
+                    
+                    
+                 
+                      
+              
+               
+                
+                    </center>
+                    
+                    <a href="#" style="color:goldenrod;">OUR MOTIVE IS:</a>
+                    <a href="#" style="color:green;">FEEDING GOOD FOOD</a>
+                    
+            </form>
+            
+             
+            </div>   
+             
+    </body>     
+    </html> 
